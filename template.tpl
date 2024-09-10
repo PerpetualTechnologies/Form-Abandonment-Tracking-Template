@@ -14,6 +14,9 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Form Abandonment Tracking",
+  "categories": [
+    "UTILITY"
+  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
