@@ -14,9 +14,6 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Form Abandonment Tracking",
-  "categories": [
-    "UTILITY"
-  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -72,7 +69,7 @@ const queryPermission = require('queryPermission');
 const event_name = data.event_name;
 setInWindow('fat_event_name', event_name);
 
-const url = 'https://cdn.jsdelivr.net/gh/lbvigo/count_dl_event_var/form_abandonment.js';
+const url = 'https://cdn.jsdelivr.net/gh/PerpetualTechnologies/formabandonment/form_abandonment.js';
 if (queryPermission('inject_script', url)) {
   injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 }
@@ -217,7 +214,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://cdn.jsdelivr.net/gh/lbvigo/count_dl_event_var/form_abandonment.js"
+                "string": "https://cdn.jsdelivr.net/gh/PerpetualTechnologies/formabandonment/form_abandonment.js"
               }
             ]
           }
