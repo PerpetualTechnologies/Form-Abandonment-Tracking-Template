@@ -1,6 +1,6 @@
-# Event Count in dataLayer
+# Form Abandonment Tracking Template
 
-This custom template pushes an event into dataLayer if a user abandones any form on page
+This custom template pushes an event into a dataLayer if a user abandones any form on page
 
 # Author
 
@@ -10,11 +10,15 @@ Perpetual Technologies (https://perpetualtech.ai/).
 
 | Date              | Notes                                   |
 | ----------------- | --------------------------------------- |
-| 10 September 2024 | First version of the variable released. |
+| 10 September 2024 | First version of the template released. |
 
 # Description
 
-Important: This template will only work with post/get forms and will not work with iFrame forms.
+This template will only work with post/get forms and will not work with iFrame forms.
 
--You can set an event name to push into dataLayer
--The template will also push field name and type
+# Key Features
+
+-You can set an event name to push into a dataLayer
+-The template will push 1) field name and 2) field type a user stuck on
+-The event will be pushed into a dataLayer right before a user leaves a page
+-If a user doesnt start filling out a form - no abandonment event will be pushed
