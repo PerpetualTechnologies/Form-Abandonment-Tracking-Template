@@ -1,5 +1,5 @@
 homepage: "https://perpetualtech.ai/"
-documentation: "https://perpetualtech.ai/form-abandonment-docs"
+documentation: "https://github.com/PerpetualTechnologies/formabandonment/blob/main/README.md"
 versions:
   - sha: 61f9c7f8e61a200bb4f51b4030efb6d33e37dca8
     changeNotes: metadata committed.
